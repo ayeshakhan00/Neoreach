@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .Section1 {
+            height: 100vh;
+            border: 1px solid green;
+            width: auto;
+        }
+
+        .container {
+            height: 40vh;
+            width: 755px;
+            border: 1px solid red;
+            margin-left: 50%;
+            margin-top: 15%;
+            position: relative;
+            right: 0;
+            overflow: hidden;
+
+
+        }
+
+        /* .prnt {
+            height: 40vh;
+            width: 1515px;
+            border: 1px solid;
+            left: 0;
+            margin: 0;
+            position: absolute;
+            margin-left: -758px;
+            animation: slide1 7s linear infinite;
+
+        }
+        @keyframes slide1 {
+            0% {
+                margin-left: 0;
+            }
+
+           
+            100% {
+                margin-left: 680px;
+            }
+
+           
+        }
+        .prnt2 {
+            height: 40vh;
+            width: 1515px;
+            border: 1px solid;
+            left: 0;
+            margin: 0;
+            position: absolute;
+            margin-left: -1500px;
+            animation: slide2 10s linear infinite;
+
+        }
+        @keyframes slide2 {
+            0% {
+                margin-left: 0;
+            }
+
+
+            100% {
+                margin-left: 1350px;
+            }
+          
+        }
+        .p1 {
+            height: 160px;
+            width: 120px;
+            border: 1px solid red;
+            background-image: url(./images/images15.png);
+            background-position: center;
+            background-size: cover;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 45px;
+        }
+
+        .p2 {
+            height: 160px;
+            width: 120px;
+            border: 1px solid red;
+            background-image: url(./images/images17.png);
+            background-position: center;
+            background-size: cover;
+            margin-left: 45px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+ */
+
+        .card{
+            height: 160px;
+            width: 120px;
+            border: 1px solid red;
+            background-image: url(./images/images17.png);
+            background-position: center;
+            background-size: cover;
+            display: inline-block;
+            vertical-align: middle;
+            position: absolute;
+            animation: slide2 6s linear infinite;
+
+            
+        }
+
+        @keyframes slide2 {
+            0% {
+                left: -20%;
+            }
+
+
+            100% {
+                left: 100%;
+            }
+          
+        }
+
+        .card2{
+            animation-delay: 1s;
+        }
+        .card3{
+            animation-delay: 2s;
+        }
+        .card4{
+            animation-delay: 3s;
+        }
+        .card5{
+            animation-delay: 4s;
+        }
+        .card6{
+            animation-delay: 5s;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="Section1">
+        <div class="container">
+            <!-- <div class="prnt">
+                <div class="p1"></div>
+                <div class="p2"></div>
+                <div class="p1"></div>
+                <div class="p2"></div>
+            </div>
+            <div class="prnt2">
+                <div class="p1"></div>
+                <div class="p2"></div>
+                <div class="p1"></div>
+                <div class="p2"></div>
+            </div> -->
+
+            <div class="card card1"></div>
+            <div class="card card2"></div>
+            <div class="card card3"></div>
+            <div class="card card4"></div>
+            <div class="card card5"></div>
+            <div class="card card6"></div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
